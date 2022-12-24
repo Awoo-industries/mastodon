@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import { domain, version, source_url, profile_directory as profileDirectory } from 'mastodon/initial_state';
 import { logOut } from 'mastodon/utils/log_out';
 import { openModal } from 'mastodon/actions/modal';
-import { PERMISSION_INVITE_USERS } from 'mastodon/permissions';
+// import { PERMISSION_INVITE_USERS } from 'mastodon/permissions';
 
 const messages = defineMessages({
   logoutMessage: { id: 'confirmations.logout.message', defaultMessage: 'Are you sure you want to log out?' },
@@ -47,9 +47,8 @@ class LinkFooter extends React.PureComponent {
   }
 
   render () {
-    const { signedIn, permissions } = this.context.identity;
-
-    const canInvite = signedIn && ((permissions & PERMISSION_INVITE_USERS) === PERMISSION_INVITE_USERS);
+    // const { signedIn, permissions } = this.context.identity;
+    // const canInvite = signedIn && ((permissions & PERMISSION_INVITE_USERS) === PERMISSION_INVITE_USERS);
     const canProfileDirectory = profileDirectory;
 
     return (
