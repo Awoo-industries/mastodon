@@ -9,7 +9,7 @@ $gold-star: #ca8f04 !default;        // Dark Goldenrod
 $red-bookmark: $warning-red;
 
 // Values from the classic Mastodon UI
-$classic-base-color: #282c37;         // Midnight Express
+$classic-base-color: #362d55;         // Midnight Express
 $classic-primary-color: #9baec8;      // Echo Blue
 $classic-secondary-color: #d9e1e8;    // Pattens Blue
 $classic-highlight-color: #6364ff;    // Brand purple
@@ -60,3 +60,7 @@ $font-display: 'mastodon-font-display' !default;
 $font-monospace: 'mastodon-font-monospace' !default;
 
 @import 'application';
+
+.account__avatar {
+  border-radius: 20% !important;
+}

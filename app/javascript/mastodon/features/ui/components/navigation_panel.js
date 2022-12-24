@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { defineMessages, injectIntl } from 'react-intl';
 import { Link } from 'react-router-dom';
-import Logo from 'mastodon/components/logo';
+// import Logo from 'mastodon/components/logo';
 import { timelinePreview, showTrends } from 'mastodon/initial_state';
 import ColumnLink from './column_link';
 import DisabledAccountBanner from './disabled_account_banner';
 // import FollowRequestsColumnLink from './follow_requests_column_link';
+import wordmark from 'mastodon/../images/awoo_header.png';
 import ListPanel from './list_panel';
 import NotificationsCounterIcon from './notifications_counter_icon';
 import SignInBanner from './sign_in_banner';
@@ -47,7 +48,9 @@ class NavigationPanel extends React.Component {
     return (
       <div className='navigation-panel'>
         <div className='navigation-panel__logo'>
-          <Link to='/' className='column-link column-link--logo'><Logo /></Link>
+          <Link to='/' className='column-link column-link--logo'>
+            <img height='50px' src={wordmark} alt='Awoo.studio mastodon instance logo' />
+          </Link>
           <hr />
         </div>
 
