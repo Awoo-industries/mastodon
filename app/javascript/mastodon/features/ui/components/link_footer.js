@@ -58,12 +58,7 @@ class LinkFooter extends React.PureComponent {
           <strong>{domain}</strong>:
           {' '}
           <Link key='about' to='/about'><FormattedMessage id='footer.about' defaultMessage='About' /></Link>
-          {canInvite && (
-            <>
-              {' · '}
-              <a key='invites' href='/invites' target='_blank'><FormattedMessage id='footer.invite' defaultMessage='Invite people' /></a>
-            </>
-          )}
+
           {canProfileDirectory && (
             <>
               {' · '}
@@ -72,6 +67,8 @@ class LinkFooter extends React.PureComponent {
           )}
           {' · '}
           <Link key='privacy-policy' to='/privacy-policy'><FormattedMessage id='footer.privacy_policy' defaultMessage='Privacy policy' /></Link>
+          {' · '}
+          <a href='https://status.awoo.industries' target='_blank'><FormattedMessage id='footer.status_page' defaultMessage='Status' /></a>
         </p>
 
         <p>
