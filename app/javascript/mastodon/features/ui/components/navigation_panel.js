@@ -6,7 +6,7 @@ import Logo from 'mastodon/components/logo';
 import { timelinePreview, showTrends } from 'mastodon/initial_state';
 import ColumnLink from './column_link';
 import DisabledAccountBanner from './disabled_account_banner';
-import FollowRequestsColumnLink from './follow_requests_column_link';
+// import FollowRequestsColumnLink from './follow_requests_column_link';
 import ListPanel from './list_panel';
 import NotificationsCounterIcon from './notifications_counter_icon';
 import SignInBanner from './sign_in_banner';
@@ -55,7 +55,9 @@ class NavigationPanel extends React.Component {
           <React.Fragment>
             <ColumnLink transparent to='/home' icon='home' text={intl.formatMessage(messages.home)} />
             <ColumnLink transparent to='/notifications' icon={<NotificationsCounterIcon className='column-link__icon' />} text={intl.formatMessage(messages.notifications)} />
-            <FollowRequestsColumnLink />
+            <ColumnLink transparent to='/conversations' icon='at' text={intl.formatMessage(messages.direct)} />
+            {/* <FollowRequestsColumnLink /> */}
+            <hr />
           </React.Fragment>
         )}
 
@@ -81,10 +83,9 @@ class NavigationPanel extends React.Component {
 
         {signedIn && (
           <React.Fragment>
-            <ColumnLink transparent to='/conversations' icon='at' text={intl.formatMessage(messages.direct)} />
-            <ColumnLink transparent to='/favourites' icon='star' text={intl.formatMessage(messages.favourites)} />
-            <ColumnLink transparent to='/bookmarks' icon='bookmark' text={intl.formatMessage(messages.bookmarks)} />
-            <ColumnLink transparent to='/lists' icon='list-ul' text={intl.formatMessage(messages.lists)} />
+            {/* <ColumnLink transparent to='/favourites' icon='star' text={intl.formatMessage(messages.favourites)} /> */}
+            {/* <ColumnLink transparent to='/bookmarks' icon='bookmark' text={intl.formatMessage(messages.bookmarks)} /> */}
+            {/* <ColumnLink transparent to='/lists' icon='list-ul' text={intl.formatMessage(messages.lists)} /> */}
 
             <ListPanel />
 
