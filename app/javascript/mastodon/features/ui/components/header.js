@@ -7,6 +7,7 @@ import Avatar from 'mastodon/components/avatar';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { openModal } from 'mastodon/actions/modal';
+import wordmark from 'mastodon/../images/awoo_header.png';
 
 const Account = connect(state => ({
   account: state.getIn(['accounts', me]),
@@ -75,7 +76,9 @@ class Header extends React.PureComponent {
 
     return (
       <div className='ui__header'>
-        <Link to='/' className='ui__header__logo'><Logo /></Link>
+        <Link to='/' className='ui__header__logo'>
+          <img height='35px' src={wordmark} alt='Awoo.studio mastodon instance logo' />
+        </Link>
 
         <div className='ui__header__links'>
           {content}

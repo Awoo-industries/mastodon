@@ -299,7 +299,7 @@ en:
       new:
         create: Create announcement
         title: New announcement
-      publish: Publish
+      publish: Awoo
       published_msg: Announcement successfully published!
       scheduled_for: Scheduled for %{time}
       scheduled_msg: Announcement scheduled for publication!
@@ -1561,6 +1561,7 @@ en:
     default: Mastodon (Dark)
     mastodon-light: Mastodon (Light)
     awoo: Mastodon (Purple)
+    awoo-coffee: Mastodon (Coffee)
     terminal: Awoo (Terminal)
   time:
     formats:
