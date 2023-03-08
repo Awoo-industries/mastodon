@@ -1238,8 +1238,6 @@ he:
       index:
         hint: סנן זה חל באופן של בחירת הודעות בודדות ללא תלות בקריטריונים אחרים. תוכלו להוסיף עוד הודעות לסנן זה ממנשק הווב.
         title: הודעות שסוננו
-  footer:
-    trending_now: נושאים חמים
   generic:
     all: הכל
     all_items_on_page_selected_html:
@@ -1270,8 +1268,6 @@ he:
       one: משהו עדיין לא בסדר! נא לעיין בשגיאה להלן
       other: משהו עדיין לא בסדר! נא לעיין ב-%{count} השגיאות להלן
       two: משהו עדיין לא בסדר! נא לעיין ב-%{count} השגיאות להלן
-  html_validator:
-    invalid_markup: 'מכיל קוד HTML לא תקין: %{error}'
   imports:
     errors:
       invalid_csv_file: 'קובץ CSV שבור. שגיאה: %{error}'

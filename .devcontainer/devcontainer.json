@@ -2,24 +2,21 @@
   "name": "Mastodon",
   "dockerComposeFile": "docker-compose.yml",
   "service": "app",
-  "workspaceFolder": "/mastodon",
-  "settings": {
-  },
-
-  "extensions": [
-    "EditorConfig.EditorConfig",
-    "dbaeumer.vscode-eslint",
-    "rebornix.Ruby",
-    "webben.browserslist"
-  ],
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
   "features": {
-    "ghcr.io/devcontainers/features/sshd:1": {
-      "version": "latest"
-    }
+    "ghcr.io/devcontainers/features/sshd:1": {}
   },
 
   "forwardPorts": [3000, 4000],
+
   "postCreateCommand": ".devcontainer/post-create.sh",
-  "remoteUser": "vscode"
+  "waitFor": "postCreateCommand",
+
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": ["EditorConfig.EditorConfig", "webben.browserslist"]
+    }
+  }
 }

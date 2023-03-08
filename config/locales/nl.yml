@@ -1196,8 +1196,6 @@ nl:
       index:
         hint: Dit filter is van toepassing om individuele berichten te selecteren, ongeacht andere criteria. Je kunt in de webomgeving meer berichten aan dit filter toevoegen.
         title: Gefilterde berichten
-  footer:
-    trending_now: Trends
   generic:
     all: Alles
     all_items_on_page_selected_html:
@@ -1220,8 +1218,6 @@ nl:
     validation_errors:
       one: Er is iets niet helemaal goed! Bekijk onderstaande fout
       other: Er is iets niet helemaal goed! Bekijk onderstaande %{count} fouten
-  html_validator:
-    invalid_markup: 'bevat ongeldige HTML-opmaak: %{error}'
   imports:
     errors:
       invalid_csv_file: 'Ongeldig CSV-bestand. Fout: %{error}'

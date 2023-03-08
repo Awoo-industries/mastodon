@@ -1198,8 +1198,6 @@ it:
       index:
         hint: Questo filtro si applica a singoli post indipendentemente da altri criteri. Puoi aggiungere più post a questo filtro dall'interfaccia Web.
         title: Post filtrati
-  footer:
-    trending_now: Di tendenza ora
   generic:
     all: Tutto
     all_items_on_page_selected_html:
@@ -1222,8 +1220,6 @@ it:
     validation_errors:
       one: Qualcosa ancora non va bene! Per favore, controlla l'errore qui sotto
       other: Qualcosa ancora non va bene! Per favore, controlla i %{count} errori qui sotto
-  html_validator:
-    invalid_markup: 'contiene markup HTML non valido: %{error}'
   imports:
     errors:
       invalid_csv_file: 'File CSV non valido. Errore: %{error}'

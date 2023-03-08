@@ -1217,8 +1217,6 @@ lv:
       index:
         hint: Šis filtrs attiecas uz atsevišķu ziņu atlasi neatkarīgi no citiem kritērijiem. Šim filtram tu vari pievienot vairāk ziņu, izmantojot tīmekļa saskarni.
         title: Filtrētās ziņas
-  footer:
-    trending_now: Šobrīd populārākie
   generic:
     all: Visi
     all_items_on_page_selected_html:
@@ -1245,8 +1243,6 @@ lv:
       one: Kaut kas vēl nav īsti kārtībā! Lūdzu, pārskati zemāk norādīto kļūdu
       other: Kaut kas vēl nav īsti kārtībā! Lūdzu, pārskati %{count} kļūdas zemāk
       zero: "%{count} kļūdu"
-  html_validator:
-    invalid_markup: 'satur nederīgu HTML marķējumu: %{error}'
   imports:
     errors:
       invalid_csv_file: 'Nederīgs CSV fails. Kļūda: %{error}'

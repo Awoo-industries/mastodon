@@ -1196,8 +1196,6 @@ is:
       index:
         hint: Þessi sía virkar til að velja stakar færslur án tillits til annarra skilyrða. Þú getur bætt fleiri færslum í þessa síu í vefviðmótinu.
         title: Síaðar færslur
-  footer:
-    trending_now: Í umræðunni núna
   generic:
     all: Allt
     all_items_on_page_selected_html:
@@ -1220,8 +1218,6 @@ is:
     validation_errors:
       one: Ennþá er ekk alvegi allt í lagi! Skoðaðu vel villuna hér fyrir neðan
       other: Ennþá er ekki alveg allt í lagi! Skoðaðu vel villurnar %{count} hér fyrir neðan
-  html_validator:
-    invalid_markup: 'inniheldur ógildar HTML-merkingar: %{error}'
   imports:
     errors:
       invalid_csv_file: 'Ógild CSV-skrá. Villa: %{error}'

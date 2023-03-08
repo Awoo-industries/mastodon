@@ -1196,8 +1196,6 @@ hu:
       index:
         hint: Ez a szűrő egyedi bejegyzések kiválasztására vonatkozik a megadott kritériumoktól függetlenül. Újabb bejegyzéseket adhatsz hozzá ehhez a szűrőhöz a webes felületen keresztül.
         title: Megszűrt bejegyzések
-  footer:
-    trending_now: Most felkapott
   generic:
     all: Mind
     all_items_on_page_selected_html:
@@ -1220,8 +1218,6 @@ hu:
     validation_errors:
       one: Valami nincs rendjén! Tekintsd meg a hibát lent
       other: Valami nincs rendjén! Tekintsd meg a(z) %{count} hibát lent
-  html_validator:
-    invalid_markup: 'hibás HTML leíró: %{error}'
   imports:
     errors:
       invalid_csv_file: 'Érvénytelen CSV-fájl. Hiba: %{error}'
