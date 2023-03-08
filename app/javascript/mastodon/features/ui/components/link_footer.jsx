@@ -69,7 +69,8 @@ class LinkFooter extends React.PureComponent {
           {' · '}
           <Link key='privacy-policy' to='/privacy-policy'><FormattedMessage id='footer.privacy_policy' defaultMessage='Privacy policy' /></Link>
           {' · '}
-          <a href='https://status.awoo.industries' target='_blank'><FormattedMessage id='footer.status_page' defaultMessage='Status' /></a>
+          <br/>
+          <a target="_blank" href="https://betteruptime.com/"><img style="width: 130px; height: 52px;" alt="Better Uptime Website Monitoring" src="https://betteruptime.com/assets/static_assets/badges/dark.png" /></a>
         </p>
 
         <p>
